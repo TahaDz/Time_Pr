@@ -228,7 +228,7 @@ void cl_launch_kernel(int n, DATA_TYPE alpha, DATA_TYPE beta)
  	double executionTime = polybench_print_instruments;
  	printf ("%0.6lf\n",executionTime);
  	FILE *myfile ; 
-   	myfile = fopen ("/home/taha/Videos/Doctorat/OpenCL/MySchedV3/dataSet/FeaturesExtractor/b2.txt","a");
+   	myfile = fopen ("b2.txt","a");
    	fprintf(myfile,"%s","gesummv");
    	fprintf(myfile,"|");
    	fprintf(myfile,"%0.6lf",executionTime);
